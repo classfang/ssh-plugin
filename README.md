@@ -179,6 +179,91 @@ List all available SSH servers
 Execute df -h command on prod server
 ```
 
+## Example Use Cases
+
+### 1. Server Monitoring and Diagnostics
+
+Monitor your server's health and performance:
+
+```
+Check disk usage on the server
+Show memory usage
+Display running processes
+Check system uptime
+```
+
+### 2. Log Analysis
+
+Analyze application logs remotely:
+
+```
+Show the last 50 lines of /var/log/nginx/access.log
+Search for errors in /var/log/application.log
+Count 404 errors in the access log
+```
+
+### 3. Deployment and Management
+
+Manage deployments and services:
+
+```
+Check if nginx service is running
+Restart the application service
+Pull latest code from git repository
+Check the current git branch
+```
+
+### 4. File Management
+
+Transfer and manage files:
+
+```
+Upload my local config.json to /etc/app/config.json on the server
+Download the database backup from /backups/db.sql to my local machine
+List all files in /var/www/html directory
+```
+
+### 5. Database Operations
+
+Perform database tasks:
+
+```
+Create a MySQL database backup
+Check PostgreSQL connection status
+Show database size
+```
+
+### 6. Security Audits
+
+Review security configurations:
+
+```
+List all users with sudo privileges
+Check firewall rules
+Show failed login attempts
+Review SSH configuration
+```
+
+### 7. Multi-Environment Management
+
+Work across different environments:
+
+```
+Check the application version on dev server
+Compare configuration between dev and prod servers
+Deploy to staging environment
+```
+
+### 8. Automated Reporting
+
+Generate system reports:
+
+```
+Create a system health report including CPU, memory, and disk usage
+Generate a list of installed packages
+Show network connection statistics
+```
+
 ## Available Tools
 
 - **execute-command**: Execute SSH commands on remote servers
