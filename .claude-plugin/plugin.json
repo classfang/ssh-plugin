@@ -1,0 +1,18 @@
+{
+  "name": "ssh",
+  "description": "A plugin that allows you to execute SSH commands through the MCP protocol. Supports command execution, file upload/download, and multi-server management.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Junki"
+  },
+  "capabilities": [
+    "execute-command",
+    "upload",
+    "download",
+    "list-servers"
+  ],
+  "mcp": {
+    "server": "@fangjunjie/ssh-mcp-server",
+    "configFile": "mcp.json"
+  }
+}

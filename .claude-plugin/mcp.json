@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ssh-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@fangjunjie/ssh-mcp-server"
+      ],
+      "env": {}
+    }
+  }
+}
